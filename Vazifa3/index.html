@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style type="text/css">
+		*{
+			margin: 0px;
+			padding: 0px;
+		}
+		.maydon{
+			width: 1535px;
+			height: 728px;
+			background-image: url("Без названия (5).png"),url("Без названия (6).png"),url("Без названия.png"),url("Без названия (2).png"),url("Без названия (3).png"),url("Без названия (4).png"),url("2000px-Soccer_field_-_empty.svg.webp");
+			background-size: 20px 20px,120px 140px,120px 140px,110px 190px,210px 160px,100px 170px,1535px 728px;
+			background-position: 5% 54%,2% 45%,25% 25%,25% 80%,45% 80%,45% 20%,0% 0%;
+			position: absolute;
+			background-repeat: no-repeat;
+			animation-name: barchasi;
+			animation-duration: 7s;
+		}
+		.gol{
+			font-size: 100px;
+			color: white;
+			position: absolute;
+			left: 580px;
+			top: 300px;
+			visibility: hidden;
+			animation-name: goll;
+			animation-duration: 1s;
+			animation-delay: 6s;
+			animation-timing-function: lineor;
+		}
+		@keyframes barchasi{
+			0%{
+				background-position: 5% 54%,2% 45%,25% 25%,25% 80%,45% 80%,45% 20%,0% 0%;
+			}
+			10%{
+				background-position: 15% 54%,12% 45%,30% 18%,15% 88%,55% 85%,40% 45%,0% 0%;
+			}
+			20%{
+				background-position: 15% 70%,12% 64%,30% 40%,22% 90%,60% 70%,54% 40%,0% 0%;
+			}
+			30%{
+				background-position: 32% 88%,2% 45%,40% 24%,30% 90%,55% 80%,40% 60%,0% 0%;
+			}
+			40%{
+				background-position: 42% 88%,2% 45%,35% 50%,40% 90%,70% 75%,60% 30%,0% 0%;
+			}
+			50%{
+				background-position: 49% 54%,2% 45%,47% 45%,35% 70%,60% 85%,70% 10%,0% 0%;
+			}
+			60%{
+				background-position: 58% 57%,2% 45%,57% 48%,45% 20%,75% 88%,64% 35%,0% 0%;
+			}
+			70%{
+				background-position: 82% 89%,2% 45%,65% 40%,25% 50%,85% 88%,85% 20%,0% 0%;
+			}
+			80%{
+				background-position: 85% 43%,2% 45%,60% 80%,57% 20%,85% 88%,85% 30%,0% 0%;
+			}
+			90%{
+				background-position: 97% 54%,5% 45%,60% 80%,57% 20%,85% 88%,85% 30%,0% 0%;
+			}
+			100%{
+				background-position: 97% 54%,2% 45%,43% 10%,50% 1%,54% 18%,60% 9%,0% 0%;
+			}
+		}
+		@keyframes goll{
+			0%{
+				visibility: visible;
+				transform: rotate(360deg);
+				font-size: 20px;
+				color: yellow;
+			}
+			100%{
+				font-size: 120px;
+			}
+		}
+	</style>
+</head>
+<body>
+	<div class="maydon">
+		<div class="gol">GOOOLL</div>
+	</div>
+</body>
+</html>
